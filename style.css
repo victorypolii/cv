@@ -1,0 +1,190 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #11062c;
+    margin: 0%;
+    font-size: 0.8rem;
+    background-image: url(background2.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page{
+    display: block;
+    width: 51.6875rem;
+    /*height: 73.0625rem;*/
+    margin: 5% auto;
+    position: relative;
+    /*background-color: white;*/
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.39);
+}
+.page_dalam{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+}
+.container_utama{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+.item_kiri{
+    background: #b0d0fae5;
+    position: relative;
+}
+.item_kanan{
+    background-color: #ececf8b7;
+    position: relative;
+}
+.header_nama_dan_foto{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.nama_utama{
+    position: absolute;
+    margin-top: 15%;
+    margin-right: 10%;
+    right: 0%;
+    text-align: center;
+}
+.foto_utama{
+    position: absolute;
+    top: 20%;
+    left: -17%;
+    background-color: #ececf8;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    text-align: center;
+}
+.kontak_utama{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.kontak_utama_margin{
+    margin-top: 15%;
+}
+.kontak_location_email_hp{
+    margin-bottom: 18%;
+}
+.about_me_judul{
+    display: block;
+    border-bottom: 0.25rem  #000000e5 solid;
+}
+p{
+    text-align: justify;
+    line-height: 1.6rem;
+}
+.work_experience_utama{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.daftar_berlist{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+}
+.daftar_berlist_after{
+    font-size: 0.2rem;
+    color: rgb(99, 99, 99);
+    letter-spacing: 0.1rem;
+}
+.border_kiri{
+    border-left: 2px black solid;
+   padding-bottom: 0.5rem;
+}
+.tahun_style{
+    font-size: 0.2rem;
+    margin-bottom: 0rem;
+    letter-spacing: 0.2rem;
+    color: rgb(99, 99, 99);
+}
+.icon_sosmed{
+    display: inline;
+    width: inherit;
+    height: 100%;
+}
+.sosmed{
+    margin: 10% 0%;
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+.ukuran_icon{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#my_goals{
+    margin-top: 15%;
+}
+#work_experience{
+    margin-top: 7.3%;
+}
+#my_skills{
+    margin-top: 7.3%;
+}
+#social_media{
+    margin-top: 15%;
+}
+.keahlian{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+li{
+    justify-content: space-between;
+    list-style-type: none;
+}
+.skill_name{
+    width: 25%;
+    display: inline;
+    letter-spacing: 0.1rem;
+}
+.skill_progress{
+    width: 100%;
+    margin: 0 0px;
+    height: 5px;
+    background: #ffffff;
+    position: relative;
+    
+}
+.skill_per{
+    display: inline;
+    position: absolute;
+    right: 0%;
+    letter-spacing: 0.1rem;
+}
+.skill_progress_per{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #94bff7e5;
+}
+.skill_after{
+    margin-top: 10%;
+}
+a:hover{
+    color: rgb(0, 26, 255);
+}
+.backfround_color{
+    background-color: #94bff7e5;
+}
+.keahlian_row{
+    position: relative;
+}
+.hard_skill{
+    margin-right: 10%;
+}
+.soft_skill{
+    margin-left: 10%;
+}
