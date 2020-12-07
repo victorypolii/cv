@@ -91,7 +91,7 @@ p{
     margin-left: 0.5rem;
 }
 .daftar_berlist_after{
-    font-size: 0.7rem;
+    font-size: 0.2rem;
     color: rgb(99, 99, 99);
     letter-spacing: 0.1rem;
 }
@@ -100,7 +100,7 @@ p{
    padding-bottom: 0.5rem;
 }
 .tahun_style{
-    font-size: 0.7rem;
+    font-size: 0.2rem;
     margin-bottom: 0rem;
     letter-spacing: 0.2rem;
     color: rgb(99, 99, 99);
@@ -187,4 +187,7 @@ a:hover{
 }
 .soft_skill{
     margin-left: 10%;
+}
+#about_me_pendidikan{
+    margin-bottom: 10%;
 }
